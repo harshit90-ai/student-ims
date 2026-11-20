@@ -15,6 +15,7 @@ import {
   UserPlus,
 } from 'lucide-react';
 import { CAMPUS_HERO_IMAGE } from '../assets/media';
+import { simsApi } from '../services/api';
 import { supabase, isSupabaseConfigured } from '../supabaseClient';
 import type { AuthUser, UserRole } from '../types/sims';
 
